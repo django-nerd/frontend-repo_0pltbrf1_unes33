@@ -22,7 +22,7 @@ export default function Industries() {
           {industries.map(({ icon: Icon, name }) => (
             <div key={name} className="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-lg bg-emerald-400/10 border border-emerald-400/20 grid place-items-center text-emerald-300">
+                <div className="w-10 h-10 rounded-lg bg-[#2596be]/10 border border-[#2596be]/20 grid place-items-center text-[#2596be]">
                   <Icon className="w-5 h-5" />
                 </div>
                 <p className="text-white font-medium">{name}</p>

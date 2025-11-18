@@ -6,7 +6,7 @@ export default function Navbar() {
   const navItems = [
     { label: 'Solutions', href: '#solutions' },
     { label: 'Industries', href: '#industries' },
-    { label: 'About', href: '#about' },
+    { label: 'Certifications', href: '#certifications' },
     { label: 'Contact', href: '#contact' },
   ]
 
@@ -16,9 +16,9 @@ export default function Navbar() {
         <div className="h-16 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-2 group">
             <div className="relative">
-              <Shield className="w-7 h-7 text-emerald-400 drop-shadow-[0_0_12px_rgba(16,185,129,0.6)]" />
+              <Shield className="w-7 h-7 text-[#2596be] drop-shadow-[0_0_12px_rgba(37,150,190,0.6)]" />
             </div>
-            <span className="text-white font-semibold tracking-tight group-hover:text-emerald-300 transition-colors">Aegis Secure</span>
+            <span className="text-white font-semibold tracking-tight group-hover:text-[#2596be] transition-colors">SITEC</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -30,11 +30,11 @@ export default function Navbar() {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+10000000000" className="inline-flex items-center gap-2 text-sm text-slate-100 hover:text-emerald-300 transition-colors">
+            <a href="tel:+10000000000" className="inline-flex items-center gap-2 text-sm text-slate-100 hover:text-[#2596be] transition-colors">
               <Phone className="w-4 h-4" />
               <span>+1 (000) 000-0000</span>
             </a>
-            <a href="#contact" className="px-4 py-2 rounded-lg bg-emerald-500/10 text-emerald-300 border border-emerald-400/20 hover:bg-emerald-500/20 transition-colors">
+            <a href="#contact" className="px-4 py-2 rounded-lg bg-[#2596be]/10 text-[#2596be] border border-[#2596be]/20 hover:bg-[#2596be]/20 transition-colors">
               Get a quote
             </a>
           </div>
@@ -52,8 +52,8 @@ export default function Navbar() {
                   {item.label}
                 </a>
               ))}
-              <a href="mailto:hello@aegissecure.com" className="inline-flex items-center gap-2 text-slate-200/90 hover:text-white">
-                <Mail className="w-4 h-4" /> hello@aegissecure.com
+              <a href="mailto:hello@sitec-security.com" className="inline-flex items-center gap-2 text-slate-200/90 hover:text-white">
+                <Mail className="w-4 h-4" /> hello@sitec-security.com
               </a>
             </nav>
           </div>
